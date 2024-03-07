@@ -1,0 +1,39 @@
+/* About Me Section Styling */
+
+.about-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h1 {
+  font-size: 28px;
+  color: #333;
+}
+
+.about-section p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+}
+
+.about-section a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.about-section a:hover {
+  text-decoration: underline;
+}
+
+/* Media Query for Responsive Design */
+
+@media (max-width: 600px) {
+  .about-section {
+    padding: 20px;
+  }
+}
